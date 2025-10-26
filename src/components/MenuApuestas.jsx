@@ -34,10 +34,10 @@ export class MenuApuestas extends Component {
                     <div className="collapse navbar-collapse" id="navbarScroll">
                     <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
                         <li className="nav-item">
-                        <a className="nav-link active" aria-current="page" href="/">Home</a>
+                        <NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="/apuestas">Apuestas</a>
+                        <NavLink className="nav-link" to="/apuestas">Apuestas</NavLink>
                         </li>                       
                         <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
